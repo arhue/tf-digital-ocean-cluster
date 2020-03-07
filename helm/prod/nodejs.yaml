@@ -1,0 +1,10 @@
+releases:
+- name: nodejs
+  namespace: default
+  chart: ../helm-charts/nodejs
+  version: 0.1.0
+  missingFileHandler: Error
+  values:
+    - values/nodejs.yaml
+  secrets:
+     - values/secrets.test.yaml

@@ -1,0 +1,9 @@
+resources:
+ limits:
+   cpu: 1
+   memory: 512Mi
+ requests:
+   cpu: 0.25
+   memory: 256Mi
+image: varunpriolkar/honestfood:nodejs
+host: honest.indiabrokerreview.com
